@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Motion Bench · MPU-6050</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font: 16px/1.5 system-ui, sans-serif;
+      background: #151817;
+      color: #f1f2e9;
+      --muted: #adb8ae;
+      --line: #39453e;
+      --green: #cbf88c;
+      --mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { width: min(1136px, calc(100% - 48px)); margin: 0 auto; padding: 48px 0 36px; }
+    header { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: 25px; }
+    h1, h2, p { margin: 0; }
+    h1 { font-size: clamp(2.65rem, 7vw, 5.35rem); font-weight: 730; letter-spacing: -.04em; line-height: 1; }
+    header p { margin-top: 10px; color: var(--muted); }
+    .actions, .tools { display: flex; flex-wrap: wrap; gap: 8px; }
+    button {
+      font: inherit; font-weight: 650; padding: 8px 13px; min-height: 42px; border-radius: 7px;
+      color: inherit; background: #232b26; border: 1px solid var(--line); cursor: pointer;
+    }
+    button:hover:not(:disabled) { background: #344137; }
+    button:focus-visible, a:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+    button:disabled { opacity: .5; cursor: default; }
+    #connect { color: #182410; background: var(--green); border-color: var(--green); }
+    #connect:hover:not(:disabled) { background: #e2ffbc; }
+    .bench { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: #1a211e; }
+    .bench-top, .bench-bottom { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 11px 16px; }
+    .bench-top { border-bottom: 1px solid var(--line); }
+    .bench-bottom { border-top: 1px solid var(--line); }
+    .mode { display: inline-flex; align-items: center; gap: 9px; font: 700 .78rem var(--mono); letter-spacing: .07em; text-transform: uppercase; }
+    .mode::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #efc477; }
+    .mode[data-live="true"]::before { background: var(--green); }
+    .model-id, #message, .readouts p { color: var(--muted); font-size: .85rem; }
+    .model-id { font-family: var(--mono); }
+    canvas { display: block; width: 100%; height: clamp(255px, 46vh, 515px); background: #101713; }
+    .readouts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .axis { border-top: 1px solid var(--line); padding: 14px 16px 16px; }
+    .axis + .axis { border-left: 1px solid var(--line); }
+    h2 { font-size: .95rem; font-weight: 640; }
+    .axis-mark { font-family: var(--mono); margin-right: 6px; }
+    .axis:nth-child(1) .axis-mark { color: #ffa98d; }
+    .axis:nth-child(2) .axis-mark { color: #c3ee9b; }
+    .axis:nth-child(3) .axis-mark { color: #a7d4ff; }
+    .axis output { display: block; font: clamp(1.2rem, 4.7vw, 2.3rem)/1.45 var(--mono); font-variant-numeric: tabular-nums; }
+    .air-mouse { margin-top: 24px; }
+    .air-mouse h2 { font-size: 1.15rem; }
+    .air-mouse .bench-bottom p { color: var(--muted); font-size: .85rem; }
+    .air-mouse .bench-bottom button { flex: none; }
+    #system-cursor[aria-pressed="true"] { background: var(--green); color: #182410; }
+    #cursor-status { margin-top: 5px; }
+    .pointer-mapping { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-bottom: 8px; }
+    .pointer-mapping label { display: grid; gap: 4px; font-size: .85rem; font-weight: 650; }
+    .pointer-mapping select {
+      min-height: 42px; padding: 6px 10px; border: 1px solid var(--line);
+      border-radius: 7px; background: #232b26; color: inherit; font: inherit;
+    }
+    .pointer-mapping select:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+    .pointer-pad {
+      position: relative;
+      height: clamp(175px, 32vh, 285px);
+      overflow: hidden;
+      background-color: #101713;
+      background-image:
+        linear-gradient(#22342b 1px, transparent 1px),
+        linear-gradient(90deg, #22342b 1px, transparent 1px);
+      background-size: 24px 24px;
+      background-position: center;
+    }
+    .pointer-track { position: absolute; inset: 15px; pointer-events: none; }
+    .pointer-center, .gyro-pointer {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .pointer-center { width: 36px; height: 36px; border: 1px solid #68796d; border-radius: 50%; }
+    .gyro-pointer { width: 25px; height: 25px; color: var(--green); }
+    footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 20px; margin-top: 18px; color: var(--muted); font-size: .875rem; }
+    a { color: var(--green); text-underline-offset: 3px; }
+    @media (max-width: 620px) {
+      main { width: calc(100% - 28px); padding-top: 28px; }
+      header, .bench-bottom { align-items: flex-start; flex-direction: column; }
+      .axis, .bench-top, .bench-bottom { padding-inline: 10px; }
+      .readouts p { font-size: .73rem; }
+    }
+  </style>
+  <script src="viewer.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Motion Bench</h1>
+        <p>3D orientation viewer for the MPU-6050 and ESP32</p>
+      </div>
+      <div class="actions">
+        <button id="demo" type="button">Play demo</button>
+        <button id="connect" type="button">Connect USB</button>
+        <button id="connect-bluetooth" type="button">Connect Bluetooth</button>
+      </div>
+    </header>
+
+    <section class="bench" aria-label="3D motion and angle readouts">
+      <div class="bench-top">
+        <span class="mode" id="mode">Demo</span>
+        <span class="model-id">MPU-6050 / 3D VIEW</span>
+      </div>
+      <canvas id="scene" role="img" aria-label="3D model of the sensor board with labeled X, Y and Z axes"></canvas>
+      <div class="readouts">
+        <div class="axis"><h2><span class="axis-mark">X</span> Roll</h2><output id="roll" aria-live="off">0.0°</output><p>Side to side</p></div>
+        <div class="axis"><h2><span class="axis-mark">Y</span> Pitch</h2><output id="pitch" aria-live="off">0.0°</output><p>Forward and back</p></div>
+        <div class="axis"><h2><span class="axis-mark">Z</span> Yaw</h2><output id="yaw" aria-live="off">0.0°</output><p>Left and right</p></div>
+      </div>
+      <div class="bench-bottom">
+        <p id="message" role="status">Press Play demo to see the board move.</p>
+        <div class="tools"><button id="zero" type="button" disabled>Zero orientation</button></div>
+      </div>
+    </section>
+
+    <section class="bench air-mouse" aria-labelledby="air-mouse-title">
+      <div class="bench-top">
+        <h2 id="air-mouse-title">Air mouse</h2>
+        <span class="mode" id="pointer-mode">Ready</span>
+      </div>
+      <div class="pointer-pad" role="img" aria-label="Practice area for the gyro-controlled pointer">
+        <div class="pointer-track" aria-hidden="true">
+          <span class="pointer-center"></span>
+          <svg class="gyro-pointer" id="gyro-pointer" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.8">
+            <circle cx="12" cy="12" r="6" fill="#101713"/>
+            <path d="M12 1v5m0 12v5M1 12h5m12 0h5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="bench-bottom">
+        <div>
+          <div class="pointer-mapping">
+            <label>
+              Move left
+              <select id="pointer-left">
+                <option value="x">X counterclockwise</option>
+                <option value="-x">X clockwise</option>
+                <option value="y" selected>Y counterclockwise</option>
+                <option value="-y">Y clockwise</option>
+                <option value="z">Z counterclockwise</option>
+                <option value="-z">Z clockwise</option>
+              </select>
+            </label>
+            <label>
+              Move up
+              <select id="pointer-up">
+                <option value="x">X counterclockwise</option>
+                <option value="-x">X clockwise</option>
+                <option value="y">Y counterclockwise</option>
+                <option value="-y">Y clockwise</option>
+                <option value="z">Z counterclockwise</option>
+                <option value="-z" selected>Z clockwise</option>
+              </select>
+            </label>
+          </div>
+          <p>View each turn from the positive end of its sensor axis. Turning the other way moves the pointer right or down.</p>
+          <p id="cursor-status" role="status">System cursor is off.</p>
+        </div>
+        <div class="tools">
+          <button id="center-pointer" type="button">Center pointer</button>
+          <button id="system-cursor" type="button" aria-pressed="false" aria-describedby="cursor-status">System cursor</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Yaw can drift over time. Zero orientation sets a new reference.</p>
+      <a href="README.md">Wiring and setup guide</a>
+    </footer>
+  </main>
+</body>
+</html>

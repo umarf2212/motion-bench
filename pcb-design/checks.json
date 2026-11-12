@@ -1,0 +1,13 @@
+{
+  "pins": 49,
+  "nets": 14,
+  "routes": 25,
+  "top_routes": 10,
+  "checks": [
+    "All assigned pads connected",
+    "No duplicate pad coordinates",
+    "No cross-net grid vertex or segment overlap",
+    "No route in marked antenna keepout"
+  ],
+  "limitation": "Custom grid checks only. KiCad parser/DRC and physical module fit not validated; not released for fabrication."
+}

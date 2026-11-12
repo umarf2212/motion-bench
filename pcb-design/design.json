@@ -1,0 +1,3258 @@
+{
+  "pins": [
+    {
+      "ref": "U1",
+      "pin": "1",
+      "x": 5,
+      "y": 2,
+      "label": "5",
+      "net": "SCL",
+      "id": "U1.1",
+      "hole": "05/02"
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "x": 5,
+      "y": 3,
+      "label": "6",
+      "net": "MOVE",
+      "id": "U1.2",
+      "hole": "05/03"
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "x": 5,
+      "y": 4,
+      "label": "7",
+      "net": "SCROLL",
+      "id": "U1.3",
+      "hole": "05/04"
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "x": 5,
+      "y": 5,
+      "label": "8",
+      "net": "",
+      "id": "U1.4",
+      "hole": "05/05"
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "x": 5,
+      "y": 6,
+      "label": "9",
+      "net": "",
+      "id": "U1.5",
+      "hole": "05/06"
+    },
+    {
+      "ref": "U1",
+      "pin": "6",
+      "x": 5,
+      "y": 7,
+      "label": "10",
+      "net": "",
+      "id": "U1.6",
+      "hole": "05/07"
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "x": 5,
+      "y": 8,
+      "label": "20",
+      "net": "",
+      "id": "U1.7",
+      "hole": "05/08"
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "x": 5,
+      "y": 9,
+      "label": "21",
+      "net": "",
+      "id": "U1.8",
+      "hole": "05/09"
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "x": 11,
+      "y": 2,
+      "label": "5V",
+      "net": "V5",
+      "id": "U1.9",
+      "hole": "11/02"
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "x": 11,
+      "y": 3,
+      "label": "GND",
+      "net": "GND",
+      "id": "U1.10",
+      "hole": "11/03"
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "x": 11,
+      "y": 4,
+      "label": "3V3",
+      "net": "V3V3",
+      "id": "U1.11",
+      "hole": "11/04"
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "x": 11,
+      "y": 5,
+      "label": "4",
+      "net": "SDA",
+      "id": "U1.12",
+      "hole": "11/05"
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "x": 11,
+      "y": 6,
+      "label": "3",
+      "net": "",
+      "id": "U1.13",
+      "hole": "11/06"
+    },
+    {
+      "ref": "U1",
+      "pin": "14",
+      "x": 11,
+      "y": 7,
+      "label": "2",
+      "net": "",
+      "id": "U1.14",
+      "hole": "11/07"
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "x": 11,
+      "y": 8,
+      "label": "1",
+      "net": "RIGHT",
+      "id": "U1.15",
+      "hole": "11/08"
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "x": 11,
+      "y": 9,
+      "label": "0",
+      "net": "LEFT",
+      "id": "U1.16",
+      "hole": "11/09"
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "x": 22,
+      "y": 3,
+      "label": "VCC",
+      "net": "V3V3",
+      "id": "U2.1",
+      "hole": "22/03"
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "x": 22,
+      "y": 4,
+      "label": "GND",
+      "net": "GND",
+      "id": "U2.2",
+      "hole": "22/04"
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "x": 22,
+      "y": 5,
+      "label": "SCL",
+      "net": "SCL",
+      "id": "U2.3",
+      "hole": "22/05"
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "x": 22,
+      "y": 6,
+      "label": "SDA",
+      "net": "SDA",
+      "id": "U2.4",
+      "hole": "22/06"
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "x": 22,
+      "y": 7,
+      "label": "XDA",
+      "net": "",
+      "id": "U2.5",
+      "hole": "22/07"
+    },
+    {
+      "ref": "U2",
+      "pin": "6",
+      "x": 22,
+      "y": 8,
+      "label": "XCL",
+      "net": "",
+      "id": "U2.6",
+      "hole": "22/08"
+    },
+    {
+      "ref": "U2",
+      "pin": "7",
+      "x": 22,
+      "y": 9,
+      "label": "AD0",
+      "net": "GND",
+      "id": "U2.7",
+      "hole": "22/09"
+    },
+    {
+      "ref": "U2",
+      "pin": "8",
+      "x": 22,
+      "y": 10,
+      "label": "INT",
+      "net": "",
+      "id": "U2.8",
+      "hole": "22/10"
+    },
+    {
+      "ref": "J1",
+      "pin": "1",
+      "x": 5,
+      "y": 19,
+      "label": "SIG",
+      "net": "LEFT",
+      "id": "J1.1",
+      "hole": "05/19"
+    },
+    {
+      "ref": "J1",
+      "pin": "2",
+      "x": 6,
+      "y": 19,
+      "label": "GND",
+      "net": "GND",
+      "id": "J1.2",
+      "hole": "06/19"
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "x": 19,
+      "y": 19,
+      "label": "SIG",
+      "net": "RIGHT",
+      "id": "J2.1",
+      "hole": "19/19"
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "x": 20,
+      "y": 19,
+      "label": "GND",
+      "net": "GND",
+      "id": "J2.2",
+      "hole": "20/19"
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "x": 5,
+      "y": 25,
+      "label": "SIG",
+      "net": "MOVE",
+      "id": "J3.1",
+      "hole": "05/25"
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "x": 6,
+      "y": 25,
+      "label": "GND",
+      "net": "GND",
+      "id": "J3.2",
+      "hole": "06/25"
+    },
+    {
+      "ref": "J4",
+      "pin": "1",
+      "x": 19,
+      "y": 25,
+      "label": "SIG",
+      "net": "SCROLL",
+      "id": "J4.1",
+      "hole": "19/25"
+    },
+    {
+      "ref": "J4",
+      "pin": "2",
+      "x": 20,
+      "y": 25,
+      "label": "GND",
+      "net": "GND",
+      "id": "J4.2",
+      "hole": "20/25"
+    },
+    {
+      "ref": "J5",
+      "pin": "1",
+      "x": 4,
+      "y": 32,
+      "label": "B+",
+      "net": "BAT_PLUS",
+      "id": "J5.1",
+      "hole": "04/32"
+    },
+    {
+      "ref": "J5",
+      "pin": "2",
+      "x": 5,
+      "y": 32,
+      "label": "B\u2212",
+      "net": "BAT_MINUS",
+      "id": "J5.2",
+      "hole": "05/32"
+    },
+    {
+      "ref": "J5",
+      "pin": "3",
+      "x": 6,
+      "y": 32,
+      "label": "OUT+",
+      "net": "PROTECTED_PLUS",
+      "id": "J5.3",
+      "hole": "06/32"
+    },
+    {
+      "ref": "J5",
+      "pin": "4",
+      "x": 7,
+      "y": 32,
+      "label": "OUT\u2212",
+      "net": "GND",
+      "id": "J5.4",
+      "hole": "07/32"
+    },
+    {
+      "ref": "J6",
+      "pin": "1",
+      "x": 4,
+      "y": 37,
+      "label": "+",
+      "net": "BAT_PLUS",
+      "id": "J6.1",
+      "hole": "04/37"
+    },
+    {
+      "ref": "J6",
+      "pin": "2",
+      "x": 5,
+      "y": 37,
+      "label": "\u2212",
+      "net": "BAT_MINUS",
+      "id": "J6.2",
+      "hole": "05/37"
+    },
+    {
+      "ref": "J7",
+      "pin": "1",
+      "x": 13,
+      "y": 32,
+      "label": "IN",
+      "net": "PROTECTED_PLUS",
+      "id": "J7.1",
+      "hole": "13/32"
+    },
+    {
+      "ref": "J7",
+      "pin": "2",
+      "x": 14,
+      "y": 32,
+      "label": "OUT",
+      "net": "SWITCHED_BAT",
+      "id": "J7.2",
+      "hole": "14/32"
+    },
+    {
+      "ref": "J8",
+      "pin": "1",
+      "x": 20,
+      "y": 32,
+      "label": "IN+",
+      "net": "SWITCHED_BAT",
+      "id": "J8.1",
+      "hole": "20/32"
+    },
+    {
+      "ref": "J8",
+      "pin": "2",
+      "x": 21,
+      "y": 32,
+      "label": "GND",
+      "net": "GND",
+      "id": "J8.2",
+      "hole": "21/32"
+    },
+    {
+      "ref": "J8",
+      "pin": "3",
+      "x": 22,
+      "y": 32,
+      "label": "OUT+",
+      "net": "BOOST_5V",
+      "id": "J8.3",
+      "hole": "22/32"
+    },
+    {
+      "ref": "JP1",
+      "pin": "1",
+      "x": 16,
+      "y": 3,
+      "label": "BOOST",
+      "net": "BOOST_5V",
+      "id": "JP1.1",
+      "hole": "16/03"
+    },
+    {
+      "ref": "JP1",
+      "pin": "2",
+      "x": 17,
+      "y": 3,
+      "label": "C3",
+      "net": "V5",
+      "id": "JP1.2",
+      "hole": "17/03"
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "x": 17,
+      "y": 10,
+      "label": "+",
+      "net": "V3V3",
+      "id": "C1.1",
+      "hole": "17/10"
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "x": 18,
+      "y": 10,
+      "label": "\u2212",
+      "net": "GND",
+      "id": "C1.2",
+      "hole": "18/10"
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "x": 16,
+      "y": 7,
+      "label": "+",
+      "net": "V5",
+      "id": "C2.1",
+      "hole": "16/07"
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "x": 17,
+      "y": 7,
+      "label": "\u2212",
+      "net": "GND",
+      "id": "C2.2",
+      "hole": "17/07"
+    }
+  ],
+  "parts": [
+    {
+      "ref": "U1",
+      "name": "ESP32-C3 SuperMini",
+      "pins": [
+        {
+          "ref": "U1",
+          "pin": "1",
+          "x": 5,
+          "y": 2,
+          "label": "5",
+          "net": "SCL",
+          "id": "U1.1",
+          "hole": "05/02"
+        },
+        {
+          "ref": "U1",
+          "pin": "2",
+          "x": 5,
+          "y": 3,
+          "label": "6",
+          "net": "MOVE",
+          "id": "U1.2",
+          "hole": "05/03"
+        },
+        {
+          "ref": "U1",
+          "pin": "3",
+          "x": 5,
+          "y": 4,
+          "label": "7",
+          "net": "SCROLL",
+          "id": "U1.3",
+          "hole": "05/04"
+        },
+        {
+          "ref": "U1",
+          "pin": "4",
+          "x": 5,
+          "y": 5,
+          "label": "8",
+          "net": "",
+          "id": "U1.4",
+          "hole": "05/05"
+        },
+        {
+          "ref": "U1",
+          "pin": "5",
+          "x": 5,
+          "y": 6,
+          "label": "9",
+          "net": "",
+          "id": "U1.5",
+          "hole": "05/06"
+        },
+        {
+          "ref": "U1",
+          "pin": "6",
+          "x": 5,
+          "y": 7,
+          "label": "10",
+          "net": "",
+          "id": "U1.6",
+          "hole": "05/07"
+        },
+        {
+          "ref": "U1",
+          "pin": "7",
+          "x": 5,
+          "y": 8,
+          "label": "20",
+          "net": "",
+          "id": "U1.7",
+          "hole": "05/08"
+        },
+        {
+          "ref": "U1",
+          "pin": "8",
+          "x": 5,
+          "y": 9,
+          "label": "21",
+          "net": "",
+          "id": "U1.8",
+          "hole": "05/09"
+        },
+        {
+          "ref": "U1",
+          "pin": "9",
+          "x": 11,
+          "y": 2,
+          "label": "5V",
+          "net": "V5",
+          "id": "U1.9",
+          "hole": "11/02"
+        },
+        {
+          "ref": "U1",
+          "pin": "10",
+          "x": 11,
+          "y": 3,
+          "label": "GND",
+          "net": "GND",
+          "id": "U1.10",
+          "hole": "11/03"
+        },
+        {
+          "ref": "U1",
+          "pin": "11",
+          "x": 11,
+          "y": 4,
+          "label": "3V3",
+          "net": "V3V3",
+          "id": "U1.11",
+          "hole": "11/04"
+        },
+        {
+          "ref": "U1",
+          "pin": "12",
+          "x": 11,
+          "y": 5,
+          "label": "4",
+          "net": "SDA",
+          "id": "U1.12",
+          "hole": "11/05"
+        },
+        {
+          "ref": "U1",
+          "pin": "13",
+          "x": 11,
+          "y": 6,
+          "label": "3",
+          "net": "",
+          "id": "U1.13",
+          "hole": "11/06"
+        },
+        {
+          "ref": "U1",
+          "pin": "14",
+          "x": 11,
+          "y": 7,
+          "label": "2",
+          "net": "",
+          "id": "U1.14",
+          "hole": "11/07"
+        },
+        {
+          "ref": "U1",
+          "pin": "15",
+          "x": 11,
+          "y": 8,
+          "label": "1",
+          "net": "RIGHT",
+          "id": "U1.15",
+          "hole": "11/08"
+        },
+        {
+          "ref": "U1",
+          "pin": "16",
+          "x": 11,
+          "y": 9,
+          "label": "0",
+          "net": "LEFT",
+          "id": "U1.16",
+          "hole": "11/09"
+        }
+      ],
+      "box": [
+        4.4,
+        0.7,
+        7.2,
+        9.1
+      ],
+      "note": "Two 1\u00d78 female sockets; row spacing 15.24 mm. USB faces row 1. Verify your board labels before insertion."
+    },
+    {
+      "ref": "U2",
+      "name": "MPU-6050 / GY-521",
+      "pins": [
+        {
+          "ref": "U2",
+          "pin": "1",
+          "x": 22,
+          "y": 3,
+          "label": "VCC",
+          "net": "V3V3",
+          "id": "U2.1",
+          "hole": "22/03"
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "x": 22,
+          "y": 4,
+          "label": "GND",
+          "net": "GND",
+          "id": "U2.2",
+          "hole": "22/04"
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "x": 22,
+          "y": 5,
+          "label": "SCL",
+          "net": "SCL",
+          "id": "U2.3",
+          "hole": "22/05"
+        },
+        {
+          "ref": "U2",
+          "pin": "4",
+          "x": 22,
+          "y": 6,
+          "label": "SDA",
+          "net": "SDA",
+          "id": "U2.4",
+          "hole": "22/06"
+        },
+        {
+          "ref": "U2",
+          "pin": "5",
+          "x": 22,
+          "y": 7,
+          "label": "XDA",
+          "net": "",
+          "id": "U2.5",
+          "hole": "22/07"
+        },
+        {
+          "ref": "U2",
+          "pin": "6",
+          "x": 22,
+          "y": 8,
+          "label": "XCL",
+          "net": "",
+          "id": "U2.6",
+          "hole": "22/08"
+        },
+        {
+          "ref": "U2",
+          "pin": "7",
+          "x": 22,
+          "y": 9,
+          "label": "AD0",
+          "net": "GND",
+          "id": "U2.7",
+          "hole": "22/09"
+        },
+        {
+          "ref": "U2",
+          "pin": "8",
+          "x": 22,
+          "y": 10,
+          "label": "INT",
+          "net": "",
+          "id": "U2.8",
+          "hole": "22/10"
+        }
+      ],
+      "box": [
+        21.3,
+        2.2,
+        7.7,
+        9
+      ],
+      "note": "1\u00d78 female socket. Body outline is indicative; fit your actual module. AD0 tied low. XDA, XCL and INT unused."
+    },
+    {
+      "ref": "J1",
+      "name": "Left click",
+      "pins": [
+        {
+          "ref": "J1",
+          "pin": "1",
+          "x": 5,
+          "y": 19,
+          "label": "SIG",
+          "net": "LEFT",
+          "id": "J1.1",
+          "hole": "05/19"
+        },
+        {
+          "ref": "J1",
+          "pin": "2",
+          "x": 6,
+          "y": 19,
+          "label": "GND",
+          "net": "GND",
+          "id": "J1.2",
+          "hole": "06/19"
+        }
+      ],
+      "box": [
+        4,
+        17,
+        4,
+        4
+      ],
+      "note": "2-pin 2.54 mm switch connection, NOT a 4-leg tactile-switch footprint. Wire opposite electrical contacts of your existing switch to these pads; mount switch to suit its measured lead spacing."
+    },
+    {
+      "ref": "J2",
+      "name": "Right click",
+      "pins": [
+        {
+          "ref": "J2",
+          "pin": "1",
+          "x": 19,
+          "y": 19,
+          "label": "SIG",
+          "net": "RIGHT",
+          "id": "J2.1",
+          "hole": "19/19"
+        },
+        {
+          "ref": "J2",
+          "pin": "2",
+          "x": 20,
+          "y": 19,
+          "label": "GND",
+          "net": "GND",
+          "id": "J2.2",
+          "hole": "20/19"
+        }
+      ],
+      "box": [
+        18,
+        17,
+        4,
+        4
+      ],
+      "note": "2-pin 2.54 mm switch connection, NOT a 4-leg tactile-switch footprint. Wire opposite electrical contacts of your existing switch to these pads; mount switch to suit its measured lead spacing."
+    },
+    {
+      "ref": "J3",
+      "name": "Hold to move",
+      "pins": [
+        {
+          "ref": "J3",
+          "pin": "1",
+          "x": 5,
+          "y": 25,
+          "label": "SIG",
+          "net": "MOVE",
+          "id": "J3.1",
+          "hole": "05/25"
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "x": 6,
+          "y": 25,
+          "label": "GND",
+          "net": "GND",
+          "id": "J3.2",
+          "hole": "06/25"
+        }
+      ],
+      "box": [
+        4,
+        23,
+        4,
+        4
+      ],
+      "note": "2-pin 2.54 mm switch connection, NOT a 4-leg tactile-switch footprint. Wire opposite electrical contacts of your existing switch to these pads; mount switch to suit its measured lead spacing."
+    },
+    {
+      "ref": "J4",
+      "name": "Hold to scroll",
+      "pins": [
+        {
+          "ref": "J4",
+          "pin": "1",
+          "x": 19,
+          "y": 25,
+          "label": "SIG",
+          "net": "SCROLL",
+          "id": "J4.1",
+          "hole": "19/25"
+        },
+        {
+          "ref": "J4",
+          "pin": "2",
+          "x": 20,
+          "y": 25,
+          "label": "GND",
+          "net": "GND",
+          "id": "J4.2",
+          "hole": "20/25"
+        }
+      ],
+      "box": [
+        18,
+        23,
+        4,
+        4
+      ],
+      "note": "2-pin 2.54 mm switch connection, NOT a 4-leg tactile-switch footprint. Wire opposite electrical contacts of your existing switch to these pads; mount switch to suit its measured lead spacing."
+    },
+    {
+      "ref": "J5",
+      "name": "Charger interface",
+      "pins": [
+        {
+          "ref": "J5",
+          "pin": "1",
+          "x": 4,
+          "y": 32,
+          "label": "B+",
+          "net": "BAT_PLUS",
+          "id": "J5.1",
+          "hole": "04/32"
+        },
+        {
+          "ref": "J5",
+          "pin": "2",
+          "x": 5,
+          "y": 32,
+          "label": "B\u2212",
+          "net": "BAT_MINUS",
+          "id": "J5.2",
+          "hole": "05/32"
+        },
+        {
+          "ref": "J5",
+          "pin": "3",
+          "x": 6,
+          "y": 32,
+          "label": "OUT+",
+          "net": "PROTECTED_PLUS",
+          "id": "J5.3",
+          "hole": "06/32"
+        },
+        {
+          "ref": "J5",
+          "pin": "4",
+          "x": 7,
+          "y": 32,
+          "label": "OUT\u2212",
+          "net": "GND",
+          "id": "J5.4",
+          "hole": "07/32"
+        }
+      ],
+      "box": [
+        2.5,
+        30,
+        7,
+        8
+      ],
+      "note": "Four separate wires to the printed TP4056 module labels; this is not its physical module footprint. Keep B\u2212 separate from OUT\u2212."
+    },
+    {
+      "ref": "J6",
+      "name": "Battery connector",
+      "pins": [
+        {
+          "ref": "J6",
+          "pin": "1",
+          "x": 4,
+          "y": 37,
+          "label": "+",
+          "net": "BAT_PLUS",
+          "id": "J6.1",
+          "hole": "04/37"
+        },
+        {
+          "ref": "J6",
+          "pin": "2",
+          "x": 5,
+          "y": 37,
+          "label": "\u2212",
+          "net": "BAT_MINUS",
+          "id": "J6.2",
+          "hole": "05/37"
+        }
+      ],
+      "box": null,
+      "note": "2.54 mm header/wire pads, not a JST-PH footprint. Check polarity. Cell stays off the carrier."
+    },
+    {
+      "ref": "J7",
+      "name": "Power switch",
+      "pins": [
+        {
+          "ref": "J7",
+          "pin": "1",
+          "x": 13,
+          "y": 32,
+          "label": "IN",
+          "net": "PROTECTED_PLUS",
+          "id": "J7.1",
+          "hole": "13/32"
+        },
+        {
+          "ref": "J7",
+          "pin": "2",
+          "x": 14,
+          "y": 32,
+          "label": "OUT",
+          "net": "SWITCHED_BAT",
+          "id": "J7.2",
+          "hole": "14/32"
+        }
+      ],
+      "box": null,
+      "note": "External SPST switch via two wires; opens the positive battery feed. OFF for charging and for ESP32 USB."
+    },
+    {
+      "ref": "J8",
+      "name": "5 V regulator interface",
+      "pins": [
+        {
+          "ref": "J8",
+          "pin": "1",
+          "x": 20,
+          "y": 32,
+          "label": "IN+",
+          "net": "SWITCHED_BAT",
+          "id": "J8.1",
+          "hole": "20/32"
+        },
+        {
+          "ref": "J8",
+          "pin": "2",
+          "x": 21,
+          "y": 32,
+          "label": "GND",
+          "net": "GND",
+          "id": "J8.2",
+          "hole": "21/32"
+        },
+        {
+          "ref": "J8",
+          "pin": "3",
+          "x": 22,
+          "y": 32,
+          "label": "OUT+",
+          "net": "BOOST_5V",
+          "id": "J8.3",
+          "hole": "22/32"
+        }
+      ],
+      "box": [
+        18.5,
+        30,
+        7.8,
+        8
+      ],
+      "note": "External regulated 5 V boost module, input covers protected 1-cell Li-ion range, >=500 mA output over that range. Join both regulator ground terminals to J8.2 if separate. Set output before connecting U1."
+    },
+    {
+      "ref": "JP1",
+      "name": "Battery isolation link",
+      "pins": [
+        {
+          "ref": "JP1",
+          "pin": "1",
+          "x": 16,
+          "y": 3,
+          "label": "BOOST",
+          "net": "BOOST_5V",
+          "id": "JP1.1",
+          "hole": "16/03"
+        },
+        {
+          "ref": "JP1",
+          "pin": "2",
+          "x": 17,
+          "y": 3,
+          "label": "C3",
+          "net": "V5",
+          "id": "JP1.2",
+          "hole": "17/03"
+        }
+      ],
+      "box": null,
+      "note": "2-pin shunt. REMOVE before plugging USB into the ESP32. No automatic source selection is implemented."
+    },
+    {
+      "ref": "C1",
+      "name": "100 nF ceramic",
+      "pins": [
+        {
+          "ref": "C1",
+          "pin": "1",
+          "x": 17,
+          "y": 10,
+          "label": "+",
+          "net": "V3V3",
+          "id": "C1.1",
+          "hole": "17/10"
+        },
+        {
+          "ref": "C1",
+          "pin": "2",
+          "x": 18,
+          "y": 10,
+          "label": "\u2212",
+          "net": "GND",
+          "id": "C1.2",
+          "hole": "18/10"
+        }
+      ],
+      "box": null,
+      "note": "2.54 mm pitch, non-polarized. Across sensor supply."
+    },
+    {
+      "ref": "C2",
+      "name": "100 \u00b5F / 10 V",
+      "pins": [
+        {
+          "ref": "C2",
+          "pin": "1",
+          "x": 16,
+          "y": 7,
+          "label": "+",
+          "net": "V5",
+          "id": "C2.1",
+          "hole": "16/07"
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "x": 17,
+          "y": 7,
+          "label": "\u2212",
+          "net": "GND",
+          "id": "C2.2",
+          "hole": "17/07"
+        }
+      ],
+      "box": null,
+      "note": "2.54 mm lead pitch electrolytic, diameter <=6.3 mm. Observe polarity."
+    }
+  ],
+  "routes": [
+    {
+      "id": "W01",
+      "net": "BOOST_5V",
+      "a": "J8.3",
+      "b": "JP1.1",
+      "path": [
+        [
+          22,
+          32
+        ],
+        [
+          22,
+          31
+        ],
+        [
+          21,
+          31
+        ],
+        [
+          21,
+          30
+        ],
+        [
+          21,
+          29
+        ],
+        [
+          21,
+          28
+        ],
+        [
+          21,
+          27
+        ],
+        [
+          21,
+          26
+        ],
+        [
+          21,
+          25
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          21,
+          19
+        ],
+        [
+          21,
+          18
+        ],
+        [
+          20,
+          18
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          19,
+          17
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          19,
+          15
+        ],
+        [
+          19,
+          14
+        ],
+        [
+          19,
+          13
+        ],
+        [
+          19,
+          12
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          19,
+          9
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          18,
+          8
+        ],
+        [
+          18,
+          7
+        ],
+        [
+          18,
+          6
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          16,
+          6
+        ],
+        [
+          16,
+          5
+        ],
+        [
+          16,
+          4
+        ],
+        [
+          16,
+          3
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 88.9
+    },
+    {
+      "id": "W02",
+      "net": "BAT_MINUS",
+      "a": "J5.2",
+      "b": "J6.2",
+      "path": [
+        [
+          5,
+          32
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          5,
+          34
+        ],
+        [
+          5,
+          35
+        ],
+        [
+          5,
+          36
+        ],
+        [
+          5,
+          37
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 12.7
+    },
+    {
+      "id": "W03",
+      "net": "SCL",
+      "a": "U1.1",
+      "b": "U2.3",
+      "path": [
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          19,
+          5
+        ],
+        [
+          20,
+          5
+        ],
+        [
+          21,
+          5
+        ],
+        [
+          22,
+          5
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 55.9
+    },
+    {
+      "id": "W04",
+      "net": "SWITCHED_BAT",
+      "a": "J7.2",
+      "b": "J8.1",
+      "path": [
+        [
+          14,
+          32
+        ],
+        [
+          15,
+          32
+        ],
+        [
+          16,
+          32
+        ],
+        [
+          17,
+          32
+        ],
+        [
+          18,
+          32
+        ],
+        [
+          19,
+          32
+        ],
+        [
+          20,
+          32
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 15.2
+    },
+    {
+      "id": "W05",
+      "net": "SDA",
+      "a": "U1.12",
+      "b": "U2.4",
+      "path": [
+        [
+          11,
+          5
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          12,
+          19
+        ],
+        [
+          12,
+          20
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          12,
+          22
+        ],
+        [
+          12,
+          23
+        ],
+        [
+          12,
+          24
+        ],
+        [
+          12,
+          25
+        ],
+        [
+          12,
+          26
+        ],
+        [
+          12,
+          27
+        ],
+        [
+          12,
+          28
+        ],
+        [
+          12,
+          29
+        ],
+        [
+          12,
+          30
+        ],
+        [
+          12,
+          31
+        ],
+        [
+          12,
+          32
+        ],
+        [
+          12,
+          33
+        ],
+        [
+          13,
+          33
+        ],
+        [
+          14,
+          33
+        ],
+        [
+          15,
+          33
+        ],
+        [
+          16,
+          33
+        ],
+        [
+          17,
+          33
+        ],
+        [
+          18,
+          33
+        ],
+        [
+          19,
+          33
+        ],
+        [
+          20,
+          33
+        ],
+        [
+          21,
+          33
+        ],
+        [
+          22,
+          33
+        ],
+        [
+          23,
+          33
+        ],
+        [
+          23,
+          32
+        ],
+        [
+          23,
+          31
+        ],
+        [
+          23,
+          30
+        ],
+        [
+          23,
+          29
+        ],
+        [
+          23,
+          28
+        ],
+        [
+          23,
+          27
+        ],
+        [
+          23,
+          26
+        ],
+        [
+          23,
+          25
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          23,
+          22
+        ],
+        [
+          23,
+          21
+        ],
+        [
+          23,
+          20
+        ],
+        [
+          23,
+          19
+        ],
+        [
+          23,
+          18
+        ],
+        [
+          23,
+          17
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          23,
+          15
+        ],
+        [
+          23,
+          14
+        ],
+        [
+          23,
+          13
+        ],
+        [
+          23,
+          12
+        ],
+        [
+          23,
+          11
+        ],
+        [
+          23,
+          10
+        ],
+        [
+          23,
+          9
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          23,
+          7
+        ],
+        [
+          23,
+          6
+        ],
+        [
+          22,
+          6
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 172.7
+    },
+    {
+      "id": "W06",
+      "net": "V3V3",
+      "a": "U1.11",
+      "b": "C1.1",
+      "path": [
+        [
+          11,
+          4
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          13,
+          9
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          16,
+          10
+        ],
+        [
+          17,
+          10
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 30.5
+    },
+    {
+      "id": "W07",
+      "net": "V3V3",
+      "a": "C1.1",
+      "b": "U2.1",
+      "path": [
+        [
+          17,
+          10
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          18,
+          8
+        ],
+        [
+          18,
+          7
+        ],
+        [
+          18,
+          6
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          19,
+          3
+        ],
+        [
+          20,
+          3
+        ],
+        [
+          21,
+          3
+        ],
+        [
+          22,
+          3
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 30.5
+    },
+    {
+      "id": "W08",
+      "net": "V5",
+      "a": "U1.9",
+      "b": "JP1.2",
+      "path": [
+        [
+          11,
+          2
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          3
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 17.8
+    },
+    {
+      "id": "W09",
+      "net": "V5",
+      "a": "JP1.2",
+      "b": "C2.1",
+      "path": [
+        [
+          17,
+          3
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          16,
+          4
+        ],
+        [
+          16,
+          5
+        ],
+        [
+          16,
+          6
+        ],
+        [
+          16,
+          7
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 12.7
+    },
+    {
+      "id": "W10",
+      "net": "LEFT",
+      "a": "U1.16",
+      "b": "J1.1",
+      "path": [
+        [
+          11,
+          9
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          5,
+          19
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 40.6
+    },
+    {
+      "id": "W11",
+      "net": "RIGHT",
+      "a": "U1.15",
+      "b": "J2.1",
+      "path": [
+        [
+          11,
+          8
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          12,
+          19
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          19
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 48.3
+    },
+    {
+      "id": "W12",
+      "net": "PROTECTED_PLUS",
+      "a": "J5.3",
+      "b": "J7.1",
+      "path": [
+        [
+          6,
+          32
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          7,
+          31
+        ],
+        [
+          8,
+          31
+        ],
+        [
+          8,
+          32
+        ],
+        [
+          9,
+          32
+        ],
+        [
+          10,
+          32
+        ],
+        [
+          11,
+          32
+        ],
+        [
+          12,
+          32
+        ],
+        [
+          13,
+          32
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 22.9
+    },
+    {
+      "id": "W13",
+      "net": "GND",
+      "a": "U1.10",
+      "b": "C2.2",
+      "path": [
+        [
+          11,
+          3
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          17,
+          7
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 30.5
+    },
+    {
+      "id": "W14",
+      "net": "GND",
+      "a": "U1.10",
+      "b": "U2.2",
+      "path": [
+        [
+          11,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          19,
+          2
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          21,
+          2
+        ],
+        [
+          22,
+          2
+        ],
+        [
+          23,
+          2
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          23,
+          4
+        ],
+        [
+          22,
+          4
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 50.8
+    },
+    {
+      "id": "W15",
+      "net": "GND",
+      "a": "U2.2",
+      "b": "J1.2",
+      "path": [
+        [
+          22,
+          4
+        ],
+        [
+          23,
+          4
+        ],
+        [
+          23,
+          5
+        ],
+        [
+          24,
+          5
+        ],
+        [
+          24,
+          6
+        ],
+        [
+          24,
+          7
+        ],
+        [
+          24,
+          8
+        ],
+        [
+          24,
+          9
+        ],
+        [
+          24,
+          10
+        ],
+        [
+          24,
+          11
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          13
+        ],
+        [
+          24,
+          14
+        ],
+        [
+          24,
+          15
+        ],
+        [
+          24,
+          16
+        ],
+        [
+          24,
+          17
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          24,
+          19
+        ],
+        [
+          24,
+          20
+        ],
+        [
+          24,
+          21
+        ],
+        [
+          24,
+          22
+        ],
+        [
+          24,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          24,
+          26
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          24,
+          28
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          24,
+          31
+        ],
+        [
+          24,
+          32
+        ],
+        [
+          24,
+          33
+        ],
+        [
+          24,
+          34
+        ],
+        [
+          23,
+          34
+        ],
+        [
+          22,
+          34
+        ],
+        [
+          21,
+          34
+        ],
+        [
+          20,
+          34
+        ],
+        [
+          19,
+          34
+        ],
+        [
+          18,
+          34
+        ],
+        [
+          17,
+          34
+        ],
+        [
+          16,
+          34
+        ],
+        [
+          15,
+          34
+        ],
+        [
+          14,
+          34
+        ],
+        [
+          13,
+          34
+        ],
+        [
+          12,
+          34
+        ],
+        [
+          11,
+          34
+        ],
+        [
+          10,
+          34
+        ],
+        [
+          9,
+          34
+        ],
+        [
+          8,
+          34
+        ],
+        [
+          7,
+          34
+        ],
+        [
+          7,
+          33
+        ],
+        [
+          7,
+          32
+        ],
+        [
+          7,
+          31
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          6,
+          30
+        ],
+        [
+          6,
+          29
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          6,
+          27
+        ],
+        [
+          6,
+          26
+        ],
+        [
+          6,
+          25
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          6,
+          23
+        ],
+        [
+          6,
+          22
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          6,
+          19
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 165.1
+    },
+    {
+      "id": "W16",
+      "net": "GND",
+      "a": "J1.2",
+      "b": "J3.2",
+      "path": [
+        [
+          6,
+          19
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          6,
+          22
+        ],
+        [
+          6,
+          23
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          6,
+          25
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 15.2
+    },
+    {
+      "id": "W17",
+      "net": "GND",
+      "a": "J3.2",
+      "b": "J5.4",
+      "path": [
+        [
+          6,
+          25
+        ],
+        [
+          6,
+          26
+        ],
+        [
+          6,
+          27
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          6,
+          29
+        ],
+        [
+          6,
+          30
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          7,
+          31
+        ],
+        [
+          7,
+          32
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 20.3
+    },
+    {
+      "id": "W18",
+      "net": "GND",
+      "a": "U2.2",
+      "b": "U2.7",
+      "path": [
+        [
+          22,
+          4
+        ],
+        [
+          21,
+          4
+        ],
+        [
+          21,
+          5
+        ],
+        [
+          21,
+          6
+        ],
+        [
+          21,
+          7
+        ],
+        [
+          21,
+          8
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          22,
+          9
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 17.8
+    },
+    {
+      "id": "W19",
+      "net": "GND",
+      "a": "U2.7",
+      "b": "C1.2",
+      "path": [
+        [
+          22,
+          9
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          19,
+          9
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          18,
+          10
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 12.7
+    },
+    {
+      "id": "W20",
+      "net": "GND",
+      "a": "C1.2",
+      "b": "J2.2",
+      "path": [
+        [
+          18,
+          10
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          18,
+          12
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          18,
+          14
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          18,
+          16
+        ],
+        [
+          18,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          20
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          20,
+          19
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 33.0
+    },
+    {
+      "id": "W21",
+      "net": "GND",
+      "a": "J2.2",
+      "b": "J4.2",
+      "path": [
+        [
+          20,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          22
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          20,
+          24
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 15.2
+    },
+    {
+      "id": "W22",
+      "net": "GND",
+      "a": "J4.2",
+      "b": "J8.2",
+      "path": [
+        [
+          20,
+          25
+        ],
+        [
+          20,
+          26
+        ],
+        [
+          20,
+          27
+        ],
+        [
+          20,
+          28
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          20,
+          31
+        ],
+        [
+          21,
+          31
+        ],
+        [
+          21,
+          32
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 20.3
+    },
+    {
+      "id": "W23",
+      "net": "MOVE",
+      "a": "U1.2",
+      "b": "J3.1",
+      "path": [
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          4,
+          22
+        ],
+        [
+          4,
+          23
+        ],
+        [
+          4,
+          24
+        ],
+        [
+          4,
+          25
+        ],
+        [
+          5,
+          25
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 61.0
+    },
+    {
+      "id": "W24",
+      "net": "BAT_PLUS",
+      "a": "J5.1",
+      "b": "J6.1",
+      "path": [
+        [
+          4,
+          32
+        ],
+        [
+          4,
+          33
+        ],
+        [
+          4,
+          34
+        ],
+        [
+          4,
+          35
+        ],
+        [
+          4,
+          36
+        ],
+        [
+          4,
+          37
+        ]
+      ],
+      "layer": "B.Cu",
+      "length": 12.7
+    },
+    {
+      "id": "W25",
+      "net": "SCROLL",
+      "a": "U1.3",
+      "b": "J4.1",
+      "path": [
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          4,
+          22
+        ],
+        [
+          4,
+          23
+        ],
+        [
+          4,
+          24
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          7,
+          24
+        ],
+        [
+          7,
+          25
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          9,
+          25
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          11,
+          25
+        ],
+        [
+          12,
+          25
+        ],
+        [
+          13,
+          25
+        ],
+        [
+          14,
+          25
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          16,
+          25
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          19,
+          25
+        ]
+      ],
+      "layer": "F.Cu",
+      "length": 94.0
+    }
+  ],
+  "colors": {
+    "GND": "#a8b9ce",
+    "V3V3": "#ffbc62",
+    "V5": "#ff6485",
+    "BOOST_5V": "#ff6485",
+    "SDA": "#53e7c1",
+    "SCL": "#55baff",
+    "LEFT": "#c19aff",
+    "RIGHT": "#f48bd1",
+    "MOVE": "#8ad85d",
+    "SCROLL": "#f7df68",
+    "BAT_PLUS": "#f76b6b",
+    "BAT_MINUS": "#9ea6b5",
+    "PROTECTED_PLUS": "#e99255",
+    "SWITCHED_BAT": "#e7af60"
+  },
+  "nets": [
+    "SCL",
+    "MOVE",
+    "SCROLL",
+    "V5",
+    "GND",
+    "V3V3",
+    "SDA",
+    "RIGHT",
+    "LEFT",
+    "BAT_PLUS",
+    "BAT_MINUS",
+    "PROTECTED_PLUS",
+    "SWITCHED_BAT",
+    "BOOST_5V"
+  ],
+  "width": 30,
+  "height": 40,
+  "pitch": 2.54,
+  "report": {
+    "pins": 49,
+    "nets": 14,
+    "routes": 25,
+    "top_routes": 10,
+    "checks": [
+      "All assigned pads connected",
+      "No duplicate pad coordinates",
+      "No cross-net grid vertex or segment overlap",
+      "No route in marked antenna keepout"
+    ],
+    "limitation": "Custom grid checks only. KiCad parser/DRC and physical module fit not validated; not released for fabrication."
+  }
+}
